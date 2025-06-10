@@ -59,4 +59,16 @@ public class Rumus {
     public void tampilkanHasil() {
         System.out.println("Hasil: " + hasil);
     }
+     
+    public void prosesLuasPersegi() {
+        hitungLuasPersegi();
+        System.out.println("Luas Persegi:");
+        tampilkanHasil();
+    }
+
+    public void prosesLuasPersegiPanjang() {
+        hitungLuasPersegiPanjang();
+        System.out.println("Luas Persegi Panjang:");
+        tampilkanHasil();
+    }
 }
