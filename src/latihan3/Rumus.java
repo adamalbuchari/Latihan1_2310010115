@@ -9,6 +9,7 @@ public class Rumus {
     private int lebar;
     private int hasil;
 
+    //Konstruktor
     public Rumus() {
         this.sisi = 0;
         this.panjang = 0;
@@ -43,7 +44,7 @@ public class Rumus {
     public void setHasil(int hasil) {
         this.hasil = hasil;
     }
-
+    //Method Accessor
     public int getHasil() {
         return hasil;
     }
